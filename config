@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://diego.gracilieri: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@github.com/dgracilieri/Pruebasubir.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "pdn"]
+	remote = origin
+	merge = refs/heads/main
+[credential]
+	helper = store
